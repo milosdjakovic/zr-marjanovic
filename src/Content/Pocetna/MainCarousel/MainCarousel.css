@@ -1,6 +1,10 @@
 /* 
  */
 
+ .MainCarousel .alice-carousel {
+     padding: 0 60px 20px;
+ }
+
 .MainCarousel .alice-carousel__wrapper {
     border: 0;
 }
