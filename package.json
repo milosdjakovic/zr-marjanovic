@@ -1,0 +1,37 @@
+{
+  "name": "zr-marjanovic",
+  "homepage": "http://www.zrmarjanovic.rs/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "history": "^4.7.2",
+    "react": "^16.4.1",
+    "react-css-transition-replace": "^3.0.3",
+    "react-dom": "^16.4.1",
+    "react-fontawesome": "^1.6.1",
+    "react-image-slider": "^0.1.0",
+    "react-owl-carousel": "^2.3.1",
+    "react-responsive-carousel": "^3.1.41",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-transition": "^1.2.1",
+    "react-scripts": "1.1.4",
+    "react-slick": "^0.23.1",
+    "react-slick-slider": "^0.15.10",
+    "reactstrap": "^6.2.0",
+    "reset-css": "^4.0.1",
+    "slick-carousel": "^1.8.1",
+    "zenscroll": "^4.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "license": "All Rights Reserved",
+  "devDependencies": {
+    "react-alice-carousel": "^1.10.3"
+  }
+}

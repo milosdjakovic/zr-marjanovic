@@ -1,0 +1,18 @@
+[
+    {
+        "text": "Početna",   
+        "link": "/" 
+    },
+    {
+        "text": "Proizvodi",
+        "link": "/proizvodi"
+    },
+    {
+        "text": "O Nama",
+        "link": "/o_nama"
+    },
+    {
+        "text": "Kontakt",
+        "link": "/kontakt"
+    }
+]

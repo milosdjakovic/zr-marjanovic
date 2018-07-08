@@ -1,0 +1,50 @@
+.Kontakt {
+    display: grid;
+    grid-auto-rows: min-content;
+    grid-template-columns: 1fr;
+    grid-row-gap: 40px;
+    justify-content: center;
+    line-height: 1.2rem;
+}
+
+.Kontakt__data {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-row-gap: 40px;
+    text-align: center;
+}
+
+.Kontakt__mail a:hover {
+    color: var(--blue-01);
+    text-decoration: underline;
+}
+
+.Kontakt__single {
+    background-color: var(--light-01);
+    display: grid;
+    grid-template-rows: 300px min-content;
+    grid-row-gap: 20px;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--box-shadow-02);
+}
+
+.Kontakt__single iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.Kontakt__single__data {
+    display: grid;
+    grid-row-gap: 8px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 0 0 40px;
+}
+
+.Kontakt__single__data h4 {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+

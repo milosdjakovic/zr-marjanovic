@@ -1,0 +1,69 @@
+ .Pocetna {
+     display: grid;
+     justify-items: center;
+     grid-row-gap: 40px;
+     margin-bottom: 80px;
+     /* display: grid;
+     width: 90vw;
+     max-width: 880px;
+     margin: 40px auto 80px; */
+}
+
+.header {
+    width: 100vw;
+    background-color: var(--transparent-01);
+    display: grid;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.header__logo {
+    min-width: 200px;
+    width: 60vw;
+    max-width: 80vh;
+} 
+
+.Pocetna__content {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 40px;
+    justify-items: center;
+}
+
+.Pocetna__content__opis {
+    display: grid;
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.Pocetna__content__opis > div:nth-child(2) {
+    text-align: center;
+    display: grid;
+    grid-row-gap: 10px;
+    justify-items: center;
+}
+
+.Pocetna__content__opis > div > h4 {
+    font-size: 1.24rem;
+    font-weight: 600;
+}
+
+.Pocetna__content__opis > div > p {
+    width: 80%;
+    color: var(--dark-02);
+}
+
+.Pocetna__content__carousel {
+    width: 100%;
+}
+
+.Pocetna a {
+    background-color: var(--blue-02);
+    color: var(--light-01);
+    padding: 10px 0;
+    border-radius: 30px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto
+}

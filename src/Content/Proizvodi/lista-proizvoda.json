@@ -1,0 +1,68 @@
+[
+        {
+            "product": "Horizontalni oluk",
+            "size": "150/100, 125/80",
+            "description": "Oluk je dizajniran za prikupljanje i odvođenje kišnice.",
+            "image": "horizontalni_oluk.png"
+        },
+        {
+            "product": "Odvodna cev",
+            "size": "ф80, ф100",
+            "description": "Služi za odvod vode.",
+            "image": "odvodna_cev.png"
+        },
+        {
+            "product": "Ugao",
+            "size": "90°",
+            "description": "Spoljasnji i unutrasnji element sistema za odvođenje kišnice (vode) i ugrađuje se na spoljašnjim i unutrašnjim uglovima krova.",
+            "image": "ugao_90_stepeni.png"
+        },
+        {
+            "product": "Obujmica (selna)",
+            "size": "ф80, ф100, ф120",
+            "description": "Služi za pricvrscivanje vertikalnog oluka.",
+            "image": "obujmica.png"
+        },
+        {
+            "product": "Držac horizontalnog oluka (kuka)",
+            "size": "125/80",
+            "description": "Oluk je dizajniran za prikupljanje i odvođenje kišnice.",
+            "image": "drzac_horizontalnog_oluka.png"
+        },
+        {
+            "product": "Zatvarač oluka (forkop)",
+            "size": "125/150",
+            "description": "Montira se na krajevima oluka.",
+            "image": "zatvarac_oluka.png"
+        },
+        {
+            "product": "Reducir",
+            "size": "ф80, ф100",
+            "description": "služi za spajanje odvodne cevi.",
+            "image": "reducir.png"
+        },
+        {
+            "product": "Slivnik (kazanče)",
+            "size": "",
+            "description": "Element oluka koji takođe služi za skupljanje i odvođenje vode.",
+            "image": "slivnik.png"
+        },
+        {
+            "product": "Koleno",
+            "size": "72°",
+            "description": "Element koji služi za odvod vode iz slivnika u odvodnu cev.",
+            "image": "koleno.png"
+        },
+        {
+            "product": "Konektor",
+            "size": "125-150",
+            "description": "služi za spajanje i dihtovanje horizontalnog oluka I ugla",
+            "image": "konektor.png"
+        },
+        {
+            "product": "Snegobran",
+            "size": "",
+            "description": "Zadržava sneg na krovu i tako sprečava krivljenje i kidanje oluka.",
+            "image": "snegobran.png"
+        }
+]

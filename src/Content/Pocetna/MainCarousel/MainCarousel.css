@@ -1,0 +1,33 @@
+/* 
+ */
+
+.MainCarousel .alice-carousel__wrapper {
+    border: 0;
+}
+
+.MainCarousel .alice-carousel__next-btn-item,
+.MainCarousel .alice-carousel__prev-btn-item {
+    border: none;
+    color: var(--blue-01);
+}
+
+.MainCarousel .alice-carousel__next-btn-item:hover,
+.MainCarousel .alice-carousel__prev-btn-item:hover {
+    border: none;
+    color: var(--blue-02);
+}
+
+.MainCarousel .alice-carousel__dots-item {
+    background-color: rgba(0,168,189,0.5);
+}
+
+.MainCarousel .alice-carousel__dots-item.__active {
+    background-color: var(--blue-02);
+}
+
+@media only screen and (max-width: 500px) {
+    .MainCarousel .alice-carousel__dots-item {
+        display: none
+    }   
+}
+

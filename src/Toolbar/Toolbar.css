@@ -1,0 +1,53 @@
+.Toolbar {
+    /* padding: 0 20px;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--transparent-dark-white);
+    max-width: 100vw; */
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 10px;
+    align-items: stretch;
+    justify-content: space-between;
+    background-color: var(--transparent-02);
+    padding: 0 20px;
+}
+
+.Toolbar .image__container > img {
+    align-self: center;
+} 
+
+.nav-links {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    align-content: stretch;
+    justify-self: end;
+}
+
+
+
+.nav-links a {
+    /* padding: 0 16px; */
+    padding: 0 10px;
+    line-height: 70px;
+    transition: all 300ms;
+}
+
+.nav-links a:hover {
+    background-color: var(--transparent-01);
+    color: var(--main-dark);
+    text-decoration: underline;
+}
+
+.nav-links .toolbar-selected,
+.nav-links:hover .toolbar-selected {
+    background-color: var(--blue-01);
+    color: var(--light-01);
+}
+@media only screen and (max-width: 600px) {
+    .Toolbar {
+        display: none;
+    }
+} 

@@ -1,0 +1,79 @@
+.UgaoShow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, min-content);
+    grid-template-areas: "ugao-image ugao-description" "ugao-image ugao-selectors";
+    justify-content: center;
+    align-items: center;
+    grid-gap: 22px;
+}
+
+.UgaoShow__image {
+    grid-area: ugao-image;
+    padding: 20px;
+}
+.UgaoShow__description {
+    grid-area: ugao-description;
+    display: grid;
+    grid-row-gap: 16px;
+}
+
+.UgaoShow__description > h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.UgaoShow__selectors {
+    grid-area: ugao-selectors;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); */
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    white-space: nowrap;
+}
+
+.UgaoShow__selector {
+    font-size: 0.8rem;
+    padding: 4px 5px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.UgaoShow__selector > label {
+    /* padding-left: 5px; */
+    padding: 7px 0;
+    text-align: center;
+}
+
+.UgaoShow__selector > input {
+    position: absolute;
+    opacity: 0;
+}
+
+.UgaoShow__selector input:checked ~ label {
+    border-radius: var(--border-radius);
+    border-width: 3px;
+    border-style: solid;
+    padding: 4px 0;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .UgaoShow {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, min-content);
+        grid-template-areas: "ugao-image" "ugao-description" " ugao-selectors";
+    }
+
+    .UgaoShow__description {
+        text-align: center;
+    }
+
+    .UgaoShow__selectors {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

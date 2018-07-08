@@ -1,0 +1,67 @@
+.Onama {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, min-content);
+    grid-gap: 20px;
+}
+
+.Onama__text {
+    display: grid;
+    grid-gap: 10px;
+    text-align: justify;
+}
+
+.Onama__text > h3 {
+    text-indent: 1rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.Onama__text > p {
+    text-indent: 1rem;
+    color: var(--dark-text);
+}
+
+.Onama__document {
+    display: grid;
+    grid-column: 2/3;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+}
+
+.Onama__document .firma__dokument {
+    background-color: var(--blue-01);
+    text-align: center;
+    padding: 6px 0;
+    border-radius: var(--border-radius);
+    color: var(--light-01);
+    transition: background-color 240ms, opacity 240ms, border 240ms;
+    opacity: 0.8;
+}
+
+.Onama__document .firma__dokument:hover {
+    background-color: white;
+    color: var(--dark-01);
+    border: 3px solid var(--blue-01);
+    padding: 3px 0;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 700px) {
+    .Onama {
+        grid-template-columns: 1fr;
+        grid-auto-rows: min-content;
+    }
+
+    .Onama__text > h3 {
+        text-align: center;
+    }
+    
+    .Onama__text > p {
+        text-align: justify;
+    }
+
+    .Onama__document {
+        grid-column: auto;
+    }
+}

@@ -1,0 +1,62 @@
+:root {
+  --transparent-01: rgba(255,255,255,0.4);
+  --transparent-02: rgba(180,180,180,0.4);
+  --transparent-03: rgba(90,90,90,0.4);
+  --transparent-04: rgba(40,40,40,0.8);
+  --sidebar-transparent: rgba(240,240,240, 0.7);
+  --light-01: #F5F5F5;
+  --light-02: #dddddd;
+  --light-03: #aaa;
+  --dark-01: #161616;
+  --dark-02: #444;
+  --blue-01: #15A6C1;
+  --blue-02: #1E90FF;
+  --transparent-blue: rgba(20,60,100, 0.5);
+  --light-background: #fefefe;
+
+  --border-radius: 12px;
+  --box-shadow-01: 2px 2px 14px rgba(0,0,0,0.4); 
+  --box-shadow-02: 2px 2px 14px rgba(0,0,0,0.2);
+  
+  --z-sidebar: 900;
+}
+
+.App {
+  min-height: 100vh;
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 70px 1fr min-content;
+  background-image: url("./assets/bg-02-blured.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-01);
+}
+
+img {
+  width: 100%;
+  border-radius: var(--border-radius)
+}
+
+.image__container {
+  overflow: auto;
+  display: grid;
+  align-items: center;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    grid-template-rows: 1fr min-content;
+  }
+}

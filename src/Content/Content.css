@@ -1,0 +1,34 @@
+.Content {
+    min-height: calc( 100vh - 70px );
+}
+
+/*
+.switch-wrapper {
+    position: relative;
+}
+
+.switch-wrapper > div {
+    position: absolute;
+} */
+
+.fade-wait-leave {
+    opacity: 1;
+}
+.fade-wait-leave.fade-wait-leave-active {
+    opacity: 0;
+    transition: all .2s ease-in;
+}
+
+.fade-wait-enter {
+    opacity: 0;
+}
+
+.fade-wait-enter.fade-wait-enter-active {
+    opacity: 1;
+    /* Delay the enter animation until the leave completes */
+    transition: opacity .2s ease-in .3s;
+}
+
+.fade-wait-height {
+    transition: height .3s ease-in-out .3s;
+}

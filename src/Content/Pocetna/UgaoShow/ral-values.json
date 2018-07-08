@@ -1,0 +1,37 @@
+[
+    {
+        "btnColor": "#A7A4A1",
+        "textColor": "var(--dark-01)",
+        "value": "RAL-9006"
+    },
+    {
+        "btnColor": "#111111",
+        "textColor": "var(--light-01)",
+        "value": "RAL-9005" 
+    },
+    {
+        "btnColor": "#DBD9CD",
+        "textColor": "var(--dark-01)",
+        "value": "RAL-9002"
+    },
+    {
+        "btnColor": "#493F3D",
+        "textColor": "var(--light-01)",
+        "value": "RAL-8019" 
+    },
+    {
+        "btnColor": "#3D4045",
+        "textColor": "var(--light-01)",
+        "value": "RAL-7016" 
+    },
+    {
+        "btnColor": "#365847",
+        "textColor": "var(--light-01)",
+        "value": "RAL-6028" 
+    },
+    {
+        "btnColor": "#733732",
+        "textColor": "var(--light-01)",
+        "value": "RAL-3009" 
+    }
+]
