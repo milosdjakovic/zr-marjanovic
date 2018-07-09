@@ -23,7 +23,6 @@
     "reset-css": "^4.0.1",
     "slick-carousel": "^1.8.1",
     "zenscroll": "^4.0.2",
-    "homepage": "https://milosdjakovic.github.io/zr-marjanovic/"
   },
   "scripts": {
     "start": "react-scripts start",
