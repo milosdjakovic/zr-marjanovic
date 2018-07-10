@@ -22,7 +22,7 @@
     "reactstrap": "^6.2.0",
     "reset-css": "^4.0.1",
     "slick-carousel": "^1.8.1",
-    "zenscroll": "^4.0.2",
+    "zenscroll": "^4.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

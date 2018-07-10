@@ -21,6 +21,14 @@
     color: var(--blue-02);
 }
 
+/* .MainCarousel .alice-carousel > div:first-child {
+
+} */
+
+.MainCarousel .alice-carousel__dots {
+    bottom: 0;
+}
+
 .MainCarousel .alice-carousel__dots-item {
     background-color: rgba(0,168,189,0.5);
 }
