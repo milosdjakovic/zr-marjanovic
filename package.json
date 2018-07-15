@@ -1,6 +1,6 @@
 {
   "name": "zr-marjanovic",
-  "homepage": "http://www.zrmarjanovic.rs/",
+  "homepage": "https://milosdjakovic.github.io/zr-marjanovic/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,7 +29,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build" 
   },
   "license": "All Rights Reserved",
